@@ -57,7 +57,7 @@
 
     Or submit the jobs to a slurm cluster:
     ```sh
-    snakemake --profile config/slurm --use-singularity--use-conda 
+    snakemake --profile config/slurm --use-singularity --use-conda 
     ```
     See the [slurm config instructions](config/README.md#slurm) for more details
     on slurm configuration.
